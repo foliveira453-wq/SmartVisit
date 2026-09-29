@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* Universal pointer cursor for interactive elements ("dedo" ao passar por cima) */
+button,
+[role="button"],
+select,
+summary,
+a,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="checkbox"],
+input[type="radio"],
+input[type="file"],
+label[for] {
+  cursor: pointer;
+}
+
+button:disabled,
+[role="button"][aria-disabled="true"],
+input:disabled,
+select:disabled {
+  cursor: not-allowed;
+}

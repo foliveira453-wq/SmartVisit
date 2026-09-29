@@ -1,0 +1,6 @@
+{
+  "name": "SmartVisit",
+  "description": "Sistema corporativo multiempresa de orçamentos, feed interno e especialista técnico IA para gestão comercial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
